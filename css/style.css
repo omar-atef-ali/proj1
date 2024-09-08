@@ -1,0 +1,1122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 6800px;
+}
+.header-bar{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(41, 22, 87);
+    float: left;
+    position: fixed;
+    opacity: .9;
+    z-index: 10;
+
+    
+}
+.header-bar .header-bar-img{
+    height: inherit;
+    width: 50px;
+    margin-left: 50px;
+    float: left;
+    background-color: black;
+
+}
+.header-bar ul{
+    list-style: none;
+    float: right; 
+    margin-right: 40px;
+    margin-top: 15px;
+    
+    
+}
+.header-bar ul li{
+    display: inline-block;
+    margin-right: 30px;
+    
+    
+}
+.header-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.header-bar ul li a:hover{
+color: rgb(0, 183, 255);
+
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+.home{
+   height: 100vh;
+   width:100%;
+   background-image: url(../photos/Premier_League_Rebrands_DesignStudio_02.avif);
+   background-position: center;
+   position: relative;
+   text-align: center;
+}
+.home-overlay{
+    background-color: rgba(0, 0, 0, .9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+.home-parent{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%  , -50% );
+    
+
+}
+.home-p1{
+    font-size: 65px;
+    text-transform: uppercase;
+    color: white;
+font-family:'Times New Roman', Times, serif; 
+}
+.home-p2{
+    font-size: 20px;
+    color: white;
+
+}
+.home-btn1{
+    padding: 15px 30px;
+    /* width: 5px; */
+    font-size: 15px;
+    border: 0;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.home-btn1:hover{
+    opacity: .8;
+}
+.btn2{
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+}
+
+
+
+
+/* //////////////////////////////// */
+
+
+
+.h1-second{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 40px;
+}
+.hr-second{
+    width: 60px;
+    margin: auto;
+    margin-top: 15px;
+    height:4px;
+    background-color: rgb(41, 22, 87);
+}
+.container-second{
+    
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+.parent-second{
+    width: 95%;
+    height: 80%;
+    
+    margin: auto;
+    margin-top: 3px;
+}
+.div2{
+    border: 1px rgb(66, 66, 66) solid;
+    width: 290px;
+    height: 230px;
+    float: left;
+    margin-left:70px;
+    text-align: center;
+    position: relative;
+
+    
+}
+
+.img1-2{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    color: white;
+
+}
+.img2-2{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    color: white;
+}
+.img3-2{
+    width: 50px;
+    height: 55px;
+    margin-top: 25px;
+    color: white;
+}
+.p1-2{
+    margin-top: 10px;
+    font-size: 22px;
+    
+}
+.p2-2{
+    margin-top: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.p3-2{
+    margin-top: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.p4-2{
+    margin-top: 10px;
+    opacity: .8;
+    
+}
+.btn1-2{
+    margin-top: 30px;
+    border: 0;
+    background-color: inherit;
+    color: blue;
+    font-size: 16px;
+    opacity: .8;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.div2:after{
+    position: absolute;
+    content:"";
+
+    width: 0;
+    height: 0;
+
+    top:0;
+    left: 0;
+    background-color: black;
+
+    opacity: 0;
+
+
+}
+.div2:hover::after{
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    transition: .5s;
+    z-index: -2;
+}
+.div2:hover .p1-2{
+    color: white;
+    transition: .7s;
+
+}
+.div2:hover .p2-2{
+    color: white;
+    transition: .7s;
+
+}
+.div2:hover .p3-2{
+    color: white;
+    transition: .7s;
+
+}
+.div2:hover .p4-2{
+    color: white;
+    transition: .7s;
+
+}
+.div2:hover .btn1-2{
+    transition: .8s;
+    color: rgb(0, 217, 255);
+}
+
+/* ///////////////////////////////////////////////// */
+
+
+.container-third{
+    margin-top:200px;
+    width: 100%;
+    height: 1100px;
+    background-color: rgba(152, 141, 180, 0.5);
+}
+.h1-third{
+    text-align: center;
+    color: black;
+    padding: 100px;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.hr-third{
+    margin: auto;
+    width: 60px;
+    margin-top: -90px;
+    background-color: rgb(70, 0, 233);
+    height: 4px;
+}
+.parent-third{
+    width: 90%;
+    height: 900px;
+    margin: auto;
+    margin-top: 50px;
+}
+.first-three{
+    overflow: auto;
+    height: 350px;
+
+}
+.div3{
+    width: 300px;
+    height: 320px;
+    float: left;
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 20px;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+
+    
+}
+
+
+.div3:after{
+    position: absolute;
+    content:"";
+
+    width: 100%;
+    height: 100%;
+
+    top:0;
+    left: 0;
+     background-color: black;
+
+     opacity: 0;
+    
+
+}
+.div3:hover:after{
+    width: 100%;
+    height: 100%;
+
+    opacity: .8;
+    transition: 1s;
+
+}
+
+
+
+.second-three{
+    overflow: auto;
+    height: 500px;
+}
+.div33{
+    width: 300px;
+    height: 320px;
+    float: left;
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+
+}
+
+.div33:after{
+    position: absolute;
+    content:"";
+
+    width: 100%;
+    height: 100%;
+
+    top:0;
+    left: 0;
+     background-color: black;
+
+     opacity: 0;
+
+}
+.div33:hover:after{
+    width: 100%;
+    height: 100%;
+
+    opacity: .8;
+    transition: 1s;
+
+
+}
+
+
+
+
+.p-club{
+    font-size: 30px;
+    margin-left: -20px;
+   
+}
+.p-club2{
+    font-size: 30px;
+    margin-left: -28px;
+    
+}
+.p-club6{
+    margin-right: 20px;
+}
+
+
+ .ppp{
+    z-index: 10;
+    color: rgb(26, 197, 209);
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 90px;
+    visibility: hidden;
+ }
+ .descrption{
+    margin-right: 30px;
+    color: white;
+ }
+ .div33:hover .ppp{
+    visibility: visible;
+ }
+ .div3:hover .ppp{
+    visibility: visible;
+ }
+
+ 
+ .logos{
+    height: 160px;
+    margin-top: 60px;
+    display: block;
+    position: absolute;
+    margin-left: 90px;
+ }
+ .united , .arsenal , .chelsea , .city , .new-castle{
+    margin-left: 70px;
+ }
+ .icon1{
+    background-color: rgb(26, 197, 209);
+    font-size:20px;
+    width: 40px;
+    height: 30px;
+    padding-top: 5px;
+    color:rgb(66, 20, 194);
+ }
+ .icon2{
+    background-color: rgb(26, 197, 209);
+    font-size:20px;
+    width: 40px;
+    height: 30px;
+    padding-top: 5px;
+    color:rgb(66, 20, 194);
+ }
+ .icons{
+    margin-left: -30px;
+    margin-top: 10px;
+ }
+ .icon1:active{
+    color: red;
+ }
+ .icon2:active{
+    color: red;
+ }
+
+
+
+ /* ///////////////////////////////////////////////////////////////// */
+
+
+ .container-offer{
+    /* margin-top:200px; */
+    width: 100%;
+    height: 730px;
+ }
+ .h1-offer{
+    text-align: center;
+    color: black;
+    padding: 100px;
+    text-transform: capitalize;
+    font-size: 35px;
+
+ }
+ .parent-offer{
+    width: 90%;
+    height: 900px;
+    margin: auto;
+    margin-top: 50px;
+ }
+ .first-three-offers{
+    overflow: auto;
+    height: 220px;
+
+ }
+ .offers3{
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 20px;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+ }
+
+ .second-three-offers{
+    overflow: auto;
+    height: 300px;
+ }
+.offers33{
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+
+}
+
+.offers-content{
+    z-index: 10;
+    margin-top: 35px;
+    position: absolute;
+  
+}
+.span-offer1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: -25px;
+    z-index: 10;
+    
+
+}
+.span3{
+    margin-left: 10px;
+}
+.span6{
+    margin-left: 10px;
+}
+
+
+.p-offer1{
+    margin-top: 10px;
+    font-size: 20px ;
+    opacity: .7;
+    
+}
+.offers-icon1{
+    margin-left: -110px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 40px;
+    color: rgb(86, 161, 231);
+    z-index: 120;
+}
+.offers-icon2{
+    margin-left: -110px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 40px;
+    color: rgb(86, 161, 231);
+    z-index: 10;
+}
+.offers-icon3{
+    margin-left: -128px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 40px;
+    color: rgb(86, 161, 231);
+    z-index: 10;
+}
+.offers-icon4{
+    margin-left: -110px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 40px;
+    color: rgb(86, 161, 231);
+    z-index: 10;
+}
+.offers-icon5{
+    margin-left: -120px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 40px;
+    color: rgb(86, 161, 231);
+    z-index: 10;
+}
+.offers-icon6{
+    margin-left: -132px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 40px;
+    color: rgb(86, 161, 231);
+    z-index: 10;
+}
+
+.offers3::after{
+    position: absolute;
+    content:"";
+
+    width: 0;
+    height: 0;
+
+    top:0;
+    left: 0;
+    background-color: black;
+
+    opacity: 0;
+
+}
+.offers3:hover::after{
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    transition: .5s;
+    
+    
+}
+
+.offers3:hover .p-offer1{
+    opacity: .6;
+} 
+ .offers3:hover .offers-content{
+    z-index: 10;
+    color: white;
+    transition: .7s;
+ }
+ .offers33::after{
+    position: absolute;
+    content:"";
+
+    width: 0;
+    height: 0;
+
+    top:0;
+    left: 0;
+    background-color: black;
+
+    opacity: 0;
+
+}
+.offers33:hover::after{
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    transition: .5s;
+    
+    
+}
+.offers33:hover .offers-content{
+    z-index: 10;
+    color: white;
+    transition: .7s;
+ }
+ .offers33:hover .p-offer1{
+    opacity: .6;
+} 
+
+/* ///////////////////////////////////////////////////////// */
+
+.choose{
+    width: 100%;
+    height: 500px;
+    /* margin-top: -320px; */
+}
+.choose-parent{
+    width: 90%;
+    height: 450px ;
+    margin: auto;
+}
+.choose-content{
+    margin-left: 60px;
+    width: 550px;
+    height: 100%;
+    float: left;
+}
+.h-choose{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hr-choose{
+    height: 5px;
+    width: 60px;
+    background-color: blue;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.p-choose{
+margin-top: 55px;
+opacity: .7;
+font-size: 20px;
+margin-bottom: 25px;
+
+}
+.choose-icon{
+    color: rgb(38, 174, 228);
+}
+.choose-span{
+    opacity: .8;
+}
+.choose-img{
+    height: 450px;
+    width: 450px;
+    float: left;
+    margin-left: 85px;
+}
+.salah{
+    height: 400px;
+}
+.choose-img li{
+    font-size: 30px;
+    float: left;
+    margin-left: 30px;
+    color: gray;
+}
+.choose-img ul{
+    margin-left: 120px;
+}
+.choose-img .li1{
+    color: rgb(63, 173, 236);
+
+}
+
+/* /////////////////////////////////////////// */
+
+.client-container{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    position: relative;    
+}
+.premier-logo{
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    background-image: url(../photos/Premier_League_Logo.svg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.client-icons{
+    margin-left: 100px;
+    text-align: center;
+    
+}
+.block-icons{
+    width: 13%;
+    height: 150px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 70px;
+    text-align: center;
+    padding-top: 30px;
+    font-size:35px;
+    color: rgb(70, 144, 253);
+}
+.p-block1{
+    color: white;
+    font-size: 30px;
+    margin-top: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.p-block11{
+    color: white;
+    font-size: 20px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////// */
+
+.rank-container{
+    width: 100%;
+    height: 1000px;
+    /* background-color:black; */
+    margin-top: 70px;
+}
+.h-rank{
+    font-size: 45px;
+    color: black;
+}
+.rank-div{
+    margin-left: 35px;
+}
+.rank{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    float: left; 
+    margin-left: 90px;
+    margin-top: 60px;
+    border: 1px black solid;
+    text-align: center;
+    position: relative;
+}
+.rank1 , .rank3{
+    margin-top: 170px;
+}
+.h-rank1{
+    font-size: 40px;
+    margin-top: -90px;
+}
+.alan{
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+   
+}
+.p-rank{
+    font-size: 20px;
+}
+.harry{
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+} 
+.rank-btn{
+    margin-top: 30px;
+    width: 100px;
+    height: 20px;
+    border: 2px rgb(20, 158, 250) solid;
+
+}
+.rank:after{
+    position: absolute;
+    content:"";
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: black;
+}
+.rank:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    transition: .5s;
+}
+.rank:hover .p-rank{
+    color: red;
+    transition: .7s;
+}
+
+/* ////////////////////////////////////////////////////////// */
+
+.container-info{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.parent-info{
+    width: 100%;
+    height: 100%;
+    background-image: url(../photos/grass-stadium-3d-render_122462-38.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.info-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+
+}
+.info-img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.tefa-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.info-content{
+    width: 250px;
+    height: 50px;
+    float: left;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.p-info{
+    color: rgb(0, 162, 255);
+}
+.h-info{
+    font-size: 23px;
+}
+.info{
+    margin-left: 500px;
+    margin-top: 50px;
+    
+}
+.info2{
+    color: white;
+    margin-top: 140px;
+    margin-left: 500px;
+}
+
+/* /* //////////////////////////////////////////////////////////////////////////// * */
+
+.container-team{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+
+}
+.parent-team{
+    width: 90%;
+    height: 60%;
+    margin: auto;
+
+}
+.member{
+    width: 23%;
+    height: 300px;
+    background-color:rgb(211, 208, 208);
+    margin-left: 90px;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 15px;
+    position: relative;
+
+
+}
+.team-img{
+    width: 85%;
+    height:210px;
+    margin: auto;
+    position: relative;
+    
+}
+.h-team{
+    font-size: 20px;
+    margin-top: 8px;
+}
+.p-team{
+    text-transform: uppercase;
+    color: gray;
+    opacity: .8;
+    margin-top: 10px;
+}
+.team-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    visibility: hidden;
+}
+.member:hover .team-overlay{
+    visibility: visible;
+}
+.team-overlay a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: rgb(85, 155, 247);
+    margin-left: auto;
+}
+.team-overlay a i{
+    line-height: 40px;
+}
+.member:hover .h-team{
+    color: white;
+    transition: .7s;
+
+
+}
+.member:hover .p-team{
+    color: rgb(0, 0, 255);
+    transition: .7s;
+
+
+}
+.member::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+
+    opacity: 0; 
+    background-color: black;
+}
+.member:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    transition: .7s;
+}
+
+/* /////////////////////////////////////////////////// */
+
+.container-news{
+    width: 100%;
+    height: 800px;
+}
+.parent-news{
+    width: 90%;
+    height: 650px;
+    margin: auto;
+
+}
+.news{
+    width: 25%;
+    height: 500px;
+    margin-left: 6%;
+    background-color: white;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+
+}
+.news-img{
+    width: 70%;
+    height: 60%;
+
+}
+.icon-news{
+    color: rgb(0, 162, 255);
+    font-size: 13px;
+    margin-left: -130px;
+    margin-top: 20px;
+    margin-right: 6px;
+
+}
+.span-news{
+    font-size: 12px;
+}
+.icon-news2{
+    color: rgb(0, 162, 255);
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 6px;
+
+
+}
+.span-news2{
+    font-size: 12px;
+}
+.div-icons-news{
+    float: left;
+    width: 60px;
+    height: 10px;
+    margin-left: 170px;
+}
+.h-news{
+    margin-top: 50px;
+    margin-left: -30px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p-news{
+    margin-top: 20px;
+    margin-left: 10px;
+    opacity: .7;
+}
+.btn-news{
+    margin-left: -170px;
+    border: 0;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgba(0, 119, 255, 0.884);
+    cursor: pointer;
+
+}
+.news:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgb(98, 174, 224);
+}
+.news:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    transition: .9s;
+}
+
+/* ////////////////////////////////////////////// */
+
+.container-footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(104, 103, 103);
+    margin-top: -90px;
+    padding-top: 55px;
+
+}
+.parent-footer{
+    width: 60%;
+    height: 90%;
+    margin: auto;
+    text-align: center;
+
+}
+.footer-img{
+    width: 28%;
+    height: 80px;
+}
+.footer-icons{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.footer-icon{
+    color: white;
+    font-size: 25px;
+    background-color: rgb(52, 157, 228);
+    width: 50px;
+    height:50px;
+    padding-top: 13px;
+    border-radius: 100%;
+}
+.footer-icon:hover{
+    background-color: rgb(54, 54, 245);
+    transition: .5s;
+}
+.p-footer{
+    text-transform: uppercase;
+    color: rgb(196, 190, 190);
+    opacity: .7;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+
+
